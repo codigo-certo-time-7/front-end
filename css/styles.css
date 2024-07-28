@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-primaria: #E53939;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1 rem = 10 px / ajuda na responsividade / o padrao do chrome é 16px estamso pegando 62,5% dele e atribuido a toda a tela  */
+html {
+    font-size: 62.5%; 
+}
+  
+
+body {
+    background-color: #000000;
+    color: #fff;
+    padding: 0 8rem;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    color: #fff;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 212px;
+    height: 122px;
+    margin-bottom: 0rem;
+}
+
+.footer-left p {
+    font-size: 14px;
+    font-weight: 600; 
+    margin-top: 0.2rem; 
+}
+
+
+.footer-right {
+    align-items: center;
+}
+
+.footer-right p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons {
+    padding-top: 24px;
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    cursor: pointer;
+}
+
+.social-icons img[alt="LinkedIn"] {
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons img[alt="Discord"] {
+    width: 60px;
+    height: 50px;
+}
+
+.social-icons img[alt="GitHub"] {
+    width: 50px;
+    height: 50px;
+}
+
+
+
